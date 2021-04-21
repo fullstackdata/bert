@@ -19,4 +19,6 @@ Twitter Scraper with Selenium
 https://www.youtube.com/watch?v=3KaffTIZ5II
 https://github.com/israel-dryer/Twitter-Scraper/blob/main/twitter_scraper.py
 Useful to know - xpath
-  
+scroll to load all elements
+driver.execute_script("window.scrollTo(0, document.body.scrollHeight);")
+
