@@ -14,3 +14,9 @@ https://towardsdatascience.com/setting-up-and-using-jupyter-notebooks-on-aws-61a
 2. jupyter notebook --no-browser --port=8888
 3. On your local - ssh -i thisIsmyKey.pem -L 8000:localhost:8888 ubuntu@ec2–34–227–222–100.compute-1.amazonaws.com
 4. In your browser - localhost:8000/tree   (no need of a token)
+
+Twitter Scraper with Selenium
+https://www.youtube.com/watch?v=3KaffTIZ5II
+https://github.com/israel-dryer/Twitter-Scraper/blob/main/twitter_scraper.py
+Useful to know - xpath
+  
