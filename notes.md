@@ -1,3 +1,8 @@
+python 32-bit or 64-bit?
+>>> import platform
+>>> platform.architecture()
+
+
 Find the right configuration for your environment on this page - https://spacy.io/usage
 If your environment's python version doesn't match with miniconda or anaconda's python version you cannot proceed.
 To make progress, I downgraded my Python version to match miniconda's Python version.
