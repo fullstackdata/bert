@@ -22,3 +22,8 @@ Useful to know - xpath
 scroll to load all elements
 driver.execute_script("window.scrollTo(0, document.body.scrollHeight);")
 
+Jupyter Tabnine
+pip3 install jupyter-tabnine --user
+jupyter nbextension install --py jupyter_tabnine --user
+jupyter nbextension enable jupyter_tabnine --user --py
+jupyter serverextension enable --py jupyter_tabnine --user
