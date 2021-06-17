@@ -32,3 +32,23 @@ pip3 install jupyter-tabnine --user
 jupyter nbextension install --py jupyter_tabnine --user
 jupyter nbextension enable jupyter_tabnine --user --py
 jupyter serverextension enable --py jupyter_tabnine --user
+
+
+VS Code Useful Extensions 
+https://ahmed-nafies.medium.com/my-top-10-visual-studio-code-extensions-for-python-in-2020-9896beb04e89
+
+Evaluate:
+Pylance
+Python
+Remote SSH
+GitLens
+Bracket Pair Colorizer 2
+Dracula Official
+Idented Block Highlighting
+JSON Pretty Printer
+GitLens — Git supercharged
+Edit CSV
+Git Graph
+Markdown All in One
+Python Docstring Generator
+reStructuredText
