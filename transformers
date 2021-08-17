@@ -6,3 +6,17 @@ import sys
 import pandas as pd
 import awswrangler as wr
 import re
+
+
+def remove_html(data):
+    html=re.compile(r'<.*?>')
+    return html.sub(r'',data)
+
+def translate(text):
+    if (perform_translate == 1):
+        tokenized_text = tokenizer.prepare_seq2seq_batch([text], return_tensors='pt')
+        translation = model.generate(**tokenized_text)
+        translated_text = tokenizer.batch_decode(translation, skip_special_tokens=False)[0]
+        return translated_text
+    else:
+        return text
