@@ -1,15 +1,17 @@
 python 32-bit or 64-bit?
->>> import platform
->>> platform.architecture()
+
+<pre><code>import platform
+platform.architecture()</code></pre>
 
 
-Find the right configuration for your environment on this page - https://spacy.io/usage
-If your environment's python version doesn't match with miniconda or anaconda's python version you cannot proceed.
-To make progress, I downgraded my Python version to match miniconda's Python version.
-Make sure python -m spacy validate status returns success.
-pip install -U pip setuptools wheel
+Find the right configuration for your environment on this page - https://spacy.io/usage <br/>
+<b>If your environment's python version doesn't match with miniconda or anaconda's python version you cannot proceed.</b><br/>
+To make progress, I downgraded my Python version to match miniconda's Python version. <br/>
+Make sure `python -m spacy validate` returns success. <br/>
+
+<pre><code>pip install -U pip setuptools wheel
 pip install -U spacy[cuda110,transformers,lookups]
-python -m spacy download en_core_web_trf
+python -m spacy download en_core_web_trf</pre></code>
 
 
 
