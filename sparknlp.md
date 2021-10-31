@@ -1,0 +1,21 @@
+### Dependencies 
+	found com.johnsnowlabs.nlp#spark-nlp-gpu_2.12;3.3.1 in central
+	found com.typesafe#config;1.4.1 in central
+	found org.rocksdb#rocksdbjni;6.5.3 in central
+	found com.amazonaws#aws-java-sdk-bundle;1.11.603 in central
+	found com.github.universal-automata#liblevenshtein;3.0.0 in central
+	found com.google.code.findbugs#annotations;3.0.1 in central
+	found net.jcip#jcip-annotations;1.0 in central
+	found com.google.code.findbugs#jsr305;3.0.1 in central
+	found com.google.protobuf#protobuf-java-util;3.0.0-beta-3 in central
+	found com.google.protobuf#protobuf-java;3.0.0-beta-3 in central
+	found com.google.code.gson#gson;2.3 in central
+	found it.unimi.dsi#fastutil;7.0.12 in central
+	found org.projectlombok#lombok;1.16.8 in central
+	found org.slf4j#slf4j-api;1.7.21 in central
+	found com.navigamez#greex;1.0 in central
+	found dk.brics.automaton#automaton;1.11-8 in central
+	found org.json4s#json4s-ext_2.12;3.5.3 in central
+	found joda-time#joda-time;2.9.5 in central
+	found org.joda#joda-convert;1.8.1 in central
+	found com.johnsnowlabs.nlp#tensorflow-gpu_2.12;0.3.3 in central
